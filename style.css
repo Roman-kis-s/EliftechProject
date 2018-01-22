@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    color: black;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 20vh;
+    font-size: 10vh;
+    background: lightgrey;
+
+    border-radius: 2vh;
+}
+
+footer {
+    height: 10vh;
+    font-size: 5vh;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+
+#expressions {
+    width: 55%;
+    font-size: 6vh;
+    background: dimgray;
+    border-radius: 2vh;
+}
+
+#answer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /*flex: 0 0 20vw;*/
+}
+
+#result {
+    height: 40vh;
+    font-size: 7vh;
+    width: 100%;
+    background: dimgray;
+    border-radius: 2vh;
+}
+
+#verification {
+    border-radius: 2vh;
+    height: 40vh;
+    font-size: 20vh;
+    width: 100%;
+    background: darkgray;
+}
+
+.textCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    width: 7vh;
+    font-size: 5vh;
+    text-align: center;
+    writing-mode: sideways-lr;
+    background: cornflowerblue;
+}
+
+#resultContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#verificationContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#expressionsContainer {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    border-radius: 2vh;
+}
+
+.border {
+    border: 0.1vh solid lightgrey;
+    border-radius: 1vh;
+}
